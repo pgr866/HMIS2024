@@ -1,0 +1,152 @@
+{
+  "id": "04e8869f-dd6f-44df-8db6-b65765545407",
+  "version": "2.0",
+  "name": "hmis-sesion09_1",
+  "url": "http://hmissesion04.eastus.cloudapp.azure.com/",
+  "tests": [{
+    "id": "24d6ec13-2e52-42f4-a9c3-59dd1f73db78",
+    "name": "Responsable(jfm112INSO)",
+    "commands": [{
+      "id": "09228f78-4052-402b-8416-a2ca99d0c58a",
+      "comment": "",
+      "command": "open",
+      "target": "http://hmissesion04.eastus.cloudapp.azure.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2b55a21-aac4-4621-a097-61f00792793f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6597824f-5c03-47dc-a678-dcd781fe3266",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w3-center:nth-child(3) > .w3-padding-large:nth-child(1)",
+      "targets": [
+        ["css=.w3-center:nth-child(3) > .w3-padding-large:nth-child(1)", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location.href='member1.html'\"]", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'jfm112 (Responsable)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9311a4d6-d69d-4982-8fae-ac654a77ee05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=jfm112INSO",
+      "targets": [
+        ["linkText=jfm112INSO", "linkText"],
+        ["css=.w3-xlarge > a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://github.com/jfm112INSO')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'jfm112INSO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c65749-c131-4dcd-8f4e-aeeed009a2db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-nickname",
+      "targets": [
+        ["css=.p-nickname", "css:finder"],
+        ["xpath=//h1/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6943cc9e-1495-40d8-95ca-625f876a1ae9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.p-nickname",
+      "targets": [
+        ["css=.p-nickname", "css:finder"],
+        ["xpath=//h1/span[2]", "xpath:position"]
+      ],
+      "value": "jfm112INSO"
+    }, {
+      "id": "fa865ad8-476f-400c-9ba7-b3baae2e13fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d1afa0fa-6a80-42fb-8bbe-3cdde29847e7",
+    "name": "Desarrollador(pgr866)",
+    "commands": [{
+      "id": "9c5bfd31-848c-4465-b5fb-8d360f8001ea",
+      "comment": "",
+      "command": "open",
+      "target": "http://hmissesion04.eastus.cloudapp.azure.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45bd0e1b-9874-4f09-b16a-b49bea70cdb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "818x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5c388b3-156c-4dc5-92bb-c323f90c2554",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w3-padding-large:nth-child(2)",
+      "targets": [
+        ["css=.w3-padding-large:nth-child(2)", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location.href='member2.html'\"]", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'pgr866 (Desarrollador)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e76f485-b62c-43be-a78c-1768a1f29113",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=pgr866",
+      "targets": [
+        ["linkText=pgr866", "linkText"],
+        ["css=.w3-xlarge > a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://github.com/pgr866')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'pgr866')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88d34197-527e-49d0-afbd-527fff8de456",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-nickname",
+      "targets": [
+        ["css=.p-nickname", "css:finder"],
+        ["xpath=//h1/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f05c287f-a637-47a9-8699-ef054464380c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.p-nickname",
+      "targets": [
+        ["css=.p-nickname", "css:finder"],
+        ["xpath=//h1/span[2]", "xpath:position"]
+      ],
+      "value": "pgr866"
+    }]
+  }],
+  "suites": [{
+    "id": "03a34971-590a-4307-a877-5bcdcd5f25b3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24d6ec13-2e52-42f4-a9c3-59dd1f73db78"]
+  }],
+  "urls": ["http://hmissesion04.eastus.cloudapp.azure.com/"],
+  "plugins": []
+}

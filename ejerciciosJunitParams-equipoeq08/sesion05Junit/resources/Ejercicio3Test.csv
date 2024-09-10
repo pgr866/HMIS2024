@@ -1,0 +1,7 @@
+abcd, password demasiado corto,
+abcdef, ********,
+abcdefgh, ********,
+abcdefghij, **********,
+abcdefghijkl, ************,
+abcdefghijklmnopqrstuvwx, ************,
+abcdefghijklmnopqrstuvwxyzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, password demasiado largo
